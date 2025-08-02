@@ -1,28 +1,40 @@
+@font-face {
+  font-family: 'Lasters';
+  src: url('font/Lasters.ttf') format('truetype');
+}
+
 /* Global Styles */
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
-    --accent-color: #e74c3c;
-    --light-color: #ecf0f1;
-    --dark-color: #2c3e50;
+    --primary-color: #fff;
+    --secondary-color: #A0C3D3;
+    --azul: #47D4FE;
+    --roxo: #480A55;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Saira Condensed', Inter, Geneva, Verdana, sans-serif;
+    
 }
 
 body {
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+    overflow-x: hidden;
+    width: 100%;
+    color: #fff;
 }
 
 a {
     text-decoration: none;
     color: var(--primary-color);
+}
+#home{
+    background-image: url('../assets/img/img-secoes/secao-1.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 .btn {

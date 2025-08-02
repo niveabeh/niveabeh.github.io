@@ -1,0 +1,17 @@
+<svg width="96" height="95" viewBox="0 0 96 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="button-chamada">
+<path id="Vector 5" d="M26.7128 52.1277L48.9255 78.0426L71.1383 52.1277" stroke="white" stroke-opacity="0.8"/>
+<path id="Vector 6" d="M26.7128 39.1702L48.9255 65.0851L71.1383 39.1702" stroke="white" stroke-opacity="0.8" stroke-width="2"/>
+<path id="Vector 7" d="M26.7128 26L48.9255 51.9149L71.1383 26" stroke="white" stroke-opacity="0.8"/>
+<g id="Ellipse 1" filter="url(#filter0_f_70_1479)">
+<circle cx="48" cy="47.5" r="42.5745" stroke="#C3D8FE" stroke-opacity="0.7" stroke-width="1.85106"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_70_1479" x="0.5" y="0" width="95" height="95" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_70_1479"/>
+</filter>
+</defs>
+</svg>
