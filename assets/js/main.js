@@ -10,7 +10,7 @@
     }
   });
   btnVoltar.addEventListener('click', (e) => {
-    e.preventDefault(); // Evita o comportamento padrão do link
+    e.preventDefault();
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
