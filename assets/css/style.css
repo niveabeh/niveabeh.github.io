@@ -170,13 +170,13 @@ nav {
 
 
 
-.grid-ling {
+.grid-linguagens {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1rem;
+  gap: 2rem;
 }
 
-.ling {
+.linguagens {
   background-color: #ffffff10;
   border: 1px solid #fff;
   border-radius: 2rem;
@@ -193,21 +193,6 @@ nav {
   align-items: center;
   justify-content: center;
 }
-
-.ling p {
-  margin: 0;
-  letter-spacing: 0.2em;
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-/* Hover */
-.ling:hover {
-  background-color: #ffffff30;
-  box-shadow: 0 0 12px #fff;
-  transform: scale(1.05);
-}
-
 .icon-hero {
   height: 2rem;
   width: 2rem;
@@ -489,22 +474,6 @@ footer {
     line-height: 1.7;
     text-align: center;
   }
-
-  .grid-ling {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 0.8rem;
-  }
-
-  .ling {
-    padding: 0.8rem 1.2rem;
-    font-size: 0.95rem;
-  }
-
-  .ling p {
-    font-size: 0.95rem;
-    letter-spacing: 0.15em;
-  }
-
   .svg-smile {
     width: 9.5rem;
     height: auto;
@@ -540,20 +509,6 @@ footer {
 
   .meu-text p {
     font-size: 1rem;
-  }
-
-  .grid-ling {
-    grid-template-columns: 1fr 1fr;
-    gap: 0.6rem;
-  }
-
-  .ling {
-    padding: 0.6rem 1rem;
-  }
-
-  .ling p {
-    font-size: 0.9rem;
-    letter-spacing: 0.1em;
   }
 
   .svg-smile {
