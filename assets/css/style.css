@@ -162,7 +162,7 @@ nav {
   letter-spacing: 0.02em;
 }
 .cont-caixa-texto p{
-  font-size: 2em;
+  font-size: 2rem;
   color: var(--branco-70);
   letter-spacing: 0.2em;
 
@@ -195,10 +195,16 @@ nav {
   transition: all 0.3s ease;
   cursor: default;
   box-shadow: 0 0 8px #ffffff30;
-
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
+}
+.linguagens:hover{
+  transform: scale(1.1);
+  background-color: #a020f042;
+  backdrop-filter: blur(15px);
+  border-color: var(--branco-60);
 }
 
 .icon-hero {
@@ -271,9 +277,7 @@ nav {
   font-weight: 400;
   margin-bottom: 4px;
 }
-.caixa-texto-neto1{
-  gap: 0.5rem;
-}
+
 .caixa-texto-neto1 h4,
 .caixa-texto-neto2 h4 {
   margin: 0;
@@ -337,7 +341,9 @@ nav {
   border-radius: 2rem;
   padding: 1rem;
   gap: 0.5rem;
+  
 }
+
 
 .info-contato {
   background-color: var(--branco-10);
@@ -349,6 +355,14 @@ nav {
   padding: 1rem;
   gap: 0.5rem;
   padding: 0.2rem 1.2rem;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+.info-contato:hover{
+  transform: translateY(-10px);
+  background-color: #a020f041;
+  backdrop-filter: blur(15px);
+  border: var(--branco-50);
 }
 
 .icone-contato {
@@ -366,6 +380,11 @@ nav {
 .caixa-texto-contato h5,
 p {
   margin: 0;
+}
+.caixa-contato a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--branco-90);
 }
 
 .btn-enviar {
