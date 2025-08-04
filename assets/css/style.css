@@ -161,13 +161,20 @@ nav {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
+.cont-caixa-texto p{
+  font-size: 2em;
+  color: var(--branco-70);
+  letter-spacing: 0.2em;
 
-.meu-text p {
-  font-size: 2rem;
-  line-height: 1.5;
-  margin-bottom: 1rem;
 }
+.descricao p{
+  font-size: 12px;
+  color: var(--branco-70);
+  letter-spacing: 0.2em;
+  margin-top: 2rem;
 
+
+}
 
 
 .grid-linguagens {
