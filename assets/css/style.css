@@ -83,7 +83,7 @@ section[class^="secao-"] {
   background-image: url('../img/img-secoes/secao-3.webp');
 }
 
-.secao-projects {
+.secao-projetos {
   background-image: url('../img/img-secoes/secao-4.webp');
 }
 
@@ -237,9 +237,10 @@ nav {
 }
 
 
-.container-neto1,
-.container-neto2 {
-  background: #130b2528;
+.caixa-qualificacao,
+.caixa-experiencia {
+  background: #120b257a;
+  backdrop-filter: blur(10px);
   border: 1px solid var(--branco-20);
   border-radius: 30px;
   backdrop-filter: blur(10px);
@@ -250,11 +251,8 @@ nav {
 .qualificacao,
 .experiencia {
   border-bottom: 1px solid var(--branco-30);
-  padding-left: 1rem;
-  text-align: left;
-  font-size: 1rem;
+  margin-left: 1rem;
   margin-bottom: 1rem;
-
 }
 
 .qualificacao h2,
@@ -262,22 +260,24 @@ nav {
   margin: 0;
   text-align: left;
   color: var(--branco-80);
-  letter-spacing: 0.2em;
+  letter-spacing: 0.05em;
   font-weight: 400;
   margin-bottom: 4px;
 }
-
-.texto-neto1 h4,
-.texto-neto2 h4 {
+.caixa-texto-neto1{
+  gap: 0.5rem;
+}
+.caixa-texto-neto1 h4,
+.caixa-texto-neto2 h4 {
   margin: 0;
   text-align: left;
-  color: var(--branco-60);
+  color: var(--branco-80);
   letter-spacing: 0.2em;
   font-weight: 400;
 }
 
-.texto-neto1 p,
-.texto-neto2 p {
+.caixa-texto-neto1 p,
+.caixa-texto-neto2 p {
   margin: 0;
   text-align: left;
   color: var(--branco-60);
