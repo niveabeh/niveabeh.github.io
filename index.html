@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <a href="#topo" id="btn-voltar" class="botao-subir position-fixed bottom-0 end-0 m-4">
         <img src="assets/img/icons-projeto/button-chamada-2.svg" alt="Voltar ao topo">
     </a>
@@ -68,26 +69,244 @@
 
 
 
-    <section id="secao-about" class="secao-about d-flex align-items-center justify-content-center text-white">
+    <section id="secao-about"
+        class="secao-about d-flex flex-column align-items-center justify-content-center text-white gap-5">
 
+        <div class="cont-texto container align-self-stretch">
+            <div class="meu-text">
+                <h2>Sobre mim</h2>
+                <p>
+                    Olá, meu nome é Nívea! Sou uma desenvolvedora apaixonada por criar soluções inovadoras e
+                    impactantes.
+                    Com experiência em HTML, CSS e JavaScript, estou sempre em busca de novos desafios e oportunidades
+                    para aprimorar minhas habilidades.
+                </p>
+                <p>
+                    Neste portfólio, você encontrará uma seleção dos meus projetos mais recentes, que refletem minha
+                    dedicação e criatividade.
+                    Estou animada para compartilhar minha jornada com você!
+                </p>
+            </div>
+        </div>
+
+        <div class="ling-pai container grid-ling">
+            <div class="ling">
+                <p>JavaScript</p>
+            </div>
+            <div class="ling">
+                <p>HTML</p>
+            </div>
+            <div class="ling">
+                <p>CSS</p>
+            </div>
+            <div class="ling">
+                <p>UI Design</p>
+            </div>
+            <div class="ling">
+                <p>Figma</p>
+            </div>
+        </div>
+        <img src="assets/img/icons-projeto/icon-smile.svg" alt="carinha sorrindo" class="svg-smile img-fluid">
+        <img src="assets/img/icons-projeto/icon-cod.svg" alt="Simbolo de programação" class="svg-cod img-fluid">
     </section>
 
-
-
-
-
-    
     <section id="secao-qualification"
-        class="secao-qualification d-flex align-items-center justify-content-center text-white">
+        class="secao-qualification d-flex flex-column align-items-center justify-content-center text-white gap-4">
+
+        <h1 class="titulo-qualification">Qualificações</h1>
+
+        <div class="container-filho d-flex flex-row flex-wrap justify-content-center gap-4 px-3">
+            <div class="container-neto1">
+                <div class="qualificacao">
+                    <h2 class="subtitulo-qualification">Formação Acadêmica</h2>
+                </div>
+                <div class="texto-neto1 py-3 w-100 d-flex align-items-center gap-3">
+                    <img src="assets/img/icons-projeto/icon-educa.svg" alt="Ícone de Educação" class="icone-svg" />
+                    <div class="conteudo-texto">
+                        <h4>Superior em Análise e Desenvolvimento de Sistemas</h4>
+                        <p>UniSenai Joinville SC (2025 - Atualmente)</p>
+                    </div>
+                </div>
+                <div class="texto-neto1 py-3 w-100 d-flex align-items-center gap-3">
+                    <img src="assets/img/icons-projeto/icon-educa.svg" alt="Ícone de Educação" class="icone-svg" />
+                    <div class="conteudo-texto">
+                        <h4>Tecnico em Desenvolvimento de Sistemas</h4>
+                        <p>Senai Joinville SC (2023 - 2025)</p>
+                    </div>
+                </div>
+                <div class="texto-neto1 py-3 w-100 d-flex align-items-center gap-3">
+                    <img src="assets/img/icons-projeto/icon-educa.svg" alt="Ícone de Educação" class="icone-svg" />
+                    <div class="conteudo-texto">
+                        <h4>Figma Pro UI UX Design</h4>
+                        <p>Udemy (2025)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-neto2">
+                <div class="experiencia">
+                    <h2 class="subtitulo-qualification">Experiência Profissional</h2>
+                </div>
+                <div class="texto-neto2 py-3 w-100 d-flex align-items-center gap-3">
+                    <img src="assets/img/icons-projeto/settings 1.svg" alt="Ícone de Ferramenta" class="icone-svg" />
+                    <div class="conteudo-texto">
+                        <h4>Estagio em Desenvolvimento de Sistemas</h4>
+                        <p>Migra Cloud (2025 - Atualmente)</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="secao-projects"
+        class="secao-projects d-flex flex-column justify-content-between align-items-center gap-6">
+
+        <div class="titulo-projetos container-fluid text-center">
+            <h1>Projetos</h1>
+        </div>
+
+        <div class="container-pai-carrossel container py-3">
+            <div id="carouselProjetos" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container-cards d-flex justify-content-center gap-4 flex-wrap py2">
+                            <div class="card">
+                                <img src="assets/img/img-projetos-feitos/imagem-projeto-1.webp" class="card-img-top"
+                                    alt="Projeto 1">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Project Layout 1</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="assets/img/img-projetos-feitos/imagem-projeto-2.webp" class="card-img-top"
+                                    alt="Projeto 2">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Project Layout 2</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="assets/img/img-projetos-feitos/imagem-projeto-3.webp" class="card-img-top"
+                                    alt="Projeto 3">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Project Layout 3</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container-cards d-flex justify-content-center gap-4 flex-wrap py2">
+                            <div class="card">
+                                <img src="assets/img/img-projetos-feitos/imagem-projeto-1.webp" class="card-img-top"
+                                    alt="Projeto 1">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Project Layout 1</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="assets/img/img-projetos-feitos/imagem-projeto-2.webp" class="card-img-top"
+                                    alt="Projeto 2">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Project Layout 2</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="assets/img/img-projetos-feitos/imagem-projeto-3.webp" class="card-img-top"
+                                    alt="Projeto 3">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Project Layout 3</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+
+        </div>
 
     </section>
-    <section id="secao-projects" class="secao-projects d-flex align-items-center justify-content-center text-white">
+
+
+
+    <section id="secao-contact"
+        class="secao-contact d-flex flex-column align-items-center justify-content-center text-white">
+
+        >
+        <div class="container contato">
+            <h1 class="titulo-contact">Get in Touch</h1>
+        </div>
+
+
+        <div class="container-contact d-flex flex-wrap justify-content-center gap-4">
+
+
+            <div class="contact px-4 py-3">
+
+                <div class="info-contato d-flex align-items-center gap-3">
+                    <img src="assets/img/icons-projeto/send 1.svg" alt="icone de contato email" class="icone-contato" />
+                    <div class="texto-contato">
+                        <h5>Email</h5>
+                        <p>niveasouza86@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="info-contato d-flex align-items-center gap-3">
+                    <img src="assets/img/icons-projeto/icon-github.svg" alt="icone de contato github"
+                        class="icone-contato" />
+                    <div class="texto-contato">
+                        <h5>Github</h5>
+                        <p>niveabeh</p>
+                    </div>
+                </div>
+
+                <div class="info-contato d-flex align-items-center gap-3">
+                    <img src="assets/img/icons-projeto/icon-linkedin.svg" alt="icone de contato linkedin"
+                        class="icone-contato" />
+                    <div class="texto-contato">
+                        <h5>Linkedin</h5>
+                        <p>nivea souza</p>
+                    </div>
+                </div>
+
+                <div class="info-contato d-flex align-items-center gap-3">
+                    <img src="assets/img/icons-projeto/icon-curriculo.svg" alt="icone de contato currículo"
+                        class="icone-contato" />
+                    <div class="texto-contato">
+                        <h5>Curriculo</h5>
+                        <p>niveabeh</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="formulario">
+                <form class="form-contato d-flex flex-column gap-3">
+                    <input type="text" name="nome" placeholder="Seu nome" class="form-control" required />
+                    <input type="email" name="email" placeholder="Seu email" class="form-control" required />
+                    <textarea name="mensagem" rows="5" placeholder="Sua mensagem" class="form-control"
+                        required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+
+        </div>
+
 
     </section>
-    <section id="secao-contact" class="secao-contact d-flex align-items-center justify-content-center text-white">
-
-    </section>
-
+    <footer class="footer container-fluid">
+        <p>© copyright 2025 dev Nívea Souza. Todos os direitos reservados.</p>
+    </footer>
     <script src="assets/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
