@@ -193,6 +193,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .icon-hero {
   height: 2rem;
   width: 2rem;
@@ -321,19 +322,6 @@ nav {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
 }
 
-.card-img-top {
-  border-radius: 20px;
-  object-fit: cover;
-  height: 200px;
-}
-
-.card-title {
-  font-size: 1.2rem;
-  margin-top: 1rem;
-  color: #ffffff;
-}
-
-
 
 .caixa-contato,
 .caixa-formulario {
@@ -414,18 +402,62 @@ p {
   letter-spacing: 0.1em;
 }
 
-.caixa-titulo-contato, .caixa-titulo-projeto {
+.caixa-titulo-contato,
+.caixa-titulo-projeto {
   background: linear-gradient(90deg, rgba(106, 11, 115, 0.00) 11.65%, rgba(106, 11, 115, 0.25) 30.49%, rgba(248, 10, 248, 0.20) 50.24%, rgba(106, 11, 115, 0.50) 64.31%, rgba(106, 11, 115, 0.00) 83.67%);
   backdrop-filter: blur(12px);
 }
 
-.caixa-titulo-contato h1, .caixa-titulo-projeto h1 {
+.caixa-titulo-contato h1,
+.caixa-titulo-projeto h1 {
   color: var(--branco-90);
   font-weight: 400;
   font-size: 3rem;
   margin: 0;
   letter-spacing: 0.1em;
 
+}
+
+.card {
+  background-color: var(--branco-10);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--branco-30);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 300px;
+  height: 400px;
+  transition: all 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  animation: flutuar 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.card:hover {
+  animation-play-state: paused;
+  box-shadow: 0 8px 20px rgba(226, 225, 225, 0.419);
+  background-color: #a020f082;
+}
+
+.caixa-texto-card {
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card p {
+  color: var(--branco-90);
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
+}
+
+.card img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 0.3rem;
+  display: block;
+  margin: 0;
 }
 
 
@@ -474,6 +506,7 @@ footer {
     line-height: 1.7;
     text-align: center;
   }
+
   .svg-smile {
     width: 9.5rem;
     height: auto;
@@ -493,12 +526,6 @@ footer {
     width: 90%;
     margin: 0 auto;
   }
-
-  .card-img-top {
-    height: 180px;
-  }
-
-
 }
 
 @media (max-width: 576px) {
