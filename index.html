@@ -17,24 +17,33 @@
 </head>
 
 <body>
- <h1></h1>
+    <h1></h1>
     <a href="#topo" id="btn-voltar" class="botao-subir position-fixed bottom-0 end-0 m-4">
         <img src="assets/img/icons-projeto/button-chamada-2.svg" alt="Voltar ao topo">
     </a>
 
     <section id="secao-hero" class="secao-hero d-flex flex-column justify-content-between">
 
-        <div class="menu container d-flex justify-content-end py-3">
-            <nav aria-label="Menu principal">
-                <ul class="nav gap-5">
-                    <li class="nav-item"><a class="name-menu" href="#secao-inicio">Home</a></li>
-                    <li class="nav-item"><a class="name-menu" href="#secao-sobre">Sobre</a></li>
-                    <li class="nav-item"><a class="name-menu" href="#secao-qualificacoes">Qualificações</a></li>
-                    <li class="nav-item"><a class="name-menu" href="#secao-projetos">Projetos</a></li>
-                    <li class="nav-item"><a class="name-menu" href="#secao-contato">Contato</a></li>
-                </ul>
+        <header class="menu container py-3">
+            <nav class="navbar navbar-expand-lg w-100" aria-label="Menu principal">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <img src="assets/img/icons-projeto/hambur.svg" alt="icone do menu">
+                    
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="menuPrincipal">
+                    <ul class="nav gap-5">
+                        <li class="nav-item"><a class="name-menu nav-link" href="#secao-inicio">Home</a></li>
+                        <li class="nav-item"><a class="name-menu nav-link" href="#secao-sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="name-menu nav-link" href="#secao-qualificacoes">Qualificações</a>
+                        </li>
+                        <li class="nav-item"><a class="name-menu nav-link" href="#secao-projetos">Projetos</a></li>
+                        <li class="nav-item"><a class="name-menu nav-link" href="#secao-contato">Contato</a></li>
+                    </ul>
+                </div>
             </nav>
-        </div>
+        </header>
 
         <div class="descricao text-center gap-5 ">
             <div class="container">
@@ -65,23 +74,17 @@
 
     </section>
 
-
-
-
-
-    <section id="secao-sobre"
-        class="secao-about d-flex flex-column align-items-center justify-content-center gap-5">
+    <section id="secao-sobre" class="secao-about d-flex flex-column align-items-center justify-content-center gap-5">
 
         <div class="cont-caixa-texto container align-self-stretch">
             <div class="meu-text">
                 <h2>Sobre mim</h2>
                 <div class="caixa-sobre-mim mx-5">
                     <p>
-                        Olá, meu nome é Nívea! Sou uma desenvolvedora apaixonada por criar soluções inovadoras e
+                        Olá, meu nome é <b>Nívea!</b> Sou uma desenvolvedora apaixonada por criar soluções inovadoras e
                         impactantes.
-                        Com experiência em HTML, CSS e JavaScript, estou sempre em busca de novos desafios e
-                        oportunidades
-                        para aprimorar minhas habilidades.
+                        Com experiência em HTML, CSS, JavaScript e WordPress, estou sempre em busca de novos desafios e
+                        oportunidades para aprimorar minhas habilidades.
                     </p>
                     <p>
                         Neste portfólio, você encontrará uma seleção dos meus projetos mais recentes, que refletem minha
@@ -208,20 +211,19 @@
 
 
     <section id="secao-contato"
-        class="secao-contact d-flex flex-column align-items-center justify-content-center text-white gap-5">
+        class="secao-contact d-flex flex-column align-items-center justify-content-center gap-5">
 
         <div class="caixa-titulo-contato container-fluid align-items-center text-center py-3 m-0">
             <h1>Entre em contato</h1>
         </div>
 
+        <div class="contato-pai d-flex flex-wrap flex-column flex-md-row justify-content-center gap-4 container-fluid">
 
-        <div class="contato-pai d-flex flex-row  justify-content-center gap-4">
-
-            <div class="caixa-contato d-flex justify-content-between flex-column gap-1">
+            <div class="caixa-contato d-flex justify-content-between flex-column gap-1 col-12 col-md-5">
                 <a href="mailto:niveasouza86@gmail.com">
-                    <div class="info-contato align-items-center flex-wrap">
+                    <div class="info-contato d-flex align-items-center flex-wrap">
                         <img src="assets/img/icons-projeto/send 1.svg" alt="icone de contato email"
-                            class="icone-contato" />
+                            class="icone-contato img-fluid" />
                         <div class="caixa-texto-contato">
                             <h5>Email</h5>
                             <p>niveasouza86@gmail.com</p>
@@ -229,9 +231,9 @@
                     </div>
                 </a>
                 <a href="https://github.com/niveabeh">
-                    <div class="info-contato align-items-center flex-wrap">
+                    <div class="info-contato d-flex align-items-center flex-wrap">
                         <img src="assets/img/icons-projeto/icon-github.svg" alt="icone de contato github"
-                            class="icone-contato" />
+                            class="icone-contato img-fluid" />
                         <div class="caixa-texto-contato">
                             <h5>Github</h5>
                             <p>niveabeh</p>
@@ -240,9 +242,9 @@
                 </a>
                 <a
                     href="https://www.linkedin.com/in/nivea-souza?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-                    <div class="info-contato align-items-center flex-wrap">
+                    <div class="info-contato d-flex align-items-center flex-wrap">
                         <img src="assets/img/icons-projeto/icon-linkedin.svg" alt="icone de contato linkedin"
-                            class="icone-contato" />
+                            class="icone-contato img-fluid" />
                         <div class="caixa-texto-contato">
                             <h5>Linkedin</h5>
                             <p>nivea souza</p>
@@ -250,19 +252,18 @@
                     </div>
                 </a>
                 <a href="https://www.instagram.com/umdianiv?igsh=MTZkdTFuYjBnMzVueg%3D%3D&utm_source=qr">
-                    <div class="info-contato align-items-center flex-wrap">
-                        <img src="assets/img/icons-projeto/icon-curriculo.svg" alt="icone de contato instagram"
-                            class="icone-contato" />
+                    <div class="info-contato d-flex align-items-center flex-wrap">
+                        <img src="assets/img/icons-projeto/instagram.svg" alt="icone de contato instagram"
+                            class="icone-contato img-fluid" />
                         <div class="caixa-texto-contato">
-                            <h5>Curriculo</h5>
-                            <p>niveabeh</p>
+                            <h5>Instagram</h5>
+                            <p>umdianiv</p>
                         </div>
                     </div>
                 </a>
             </div>
 
-
-            <div class="caixa-formulario  d-flex flex-column justify-content-center">
+            <div class="caixa-formulario d-flex flex-column justify-content-center col-12 col-md-6">
                 <form class="container-fluid">
                     <div class="row g-2">
                         <div class="col-md-6">
@@ -282,8 +283,6 @@
                 </form>
             </div>
         </div>
-
-
     </section>
     <footer class="footer container-fluid">
         <p>© copyright 2025 dev Nívea Souza. Todos os direitos reservados.</p>

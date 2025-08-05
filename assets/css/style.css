@@ -98,7 +98,10 @@ nav {
   align-items: center;
   padding: 1rem 2rem;
 }
-
+.navbar-toggler {
+  border: 1px solid #9521d8;
+  border-radius: 3px;
+}
 .name-menu {
   text-decoration: none;
   color: var(--branco-70);
@@ -164,7 +167,7 @@ nav {
 .cont-caixa-texto p{
   font-size: 2rem;
   color: var(--branco-70);
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
 
 }
 .descricao p{
@@ -172,8 +175,18 @@ nav {
   color: var(--branco-70);
   letter-spacing: 0.2em;
   margin-top: 2rem;
-
-
+}
+.descricao h4{
+  font-size: 1.5rem;
+  color: var(--branco-70);
+  letter-spacing: 0.2em;
+  font-weight: 400;
+}
+.descricao h1{
+  font-size: 2.5rem;
+  color: var(--branco-70);
+  letter-spacing: 0.2em;
+  font-weight: 400;
 }
 
 
@@ -558,6 +571,7 @@ footer {
     width: 90%;
     margin: 0 auto;
   }
+}
 
 @media (max-width: 576px) {
 
@@ -566,7 +580,7 @@ footer {
   }
 
   .cont-caixa-texto  p {
-    font-size: 1rem;
+    font-size: 12px;
   }
 
   .svg-smile {
