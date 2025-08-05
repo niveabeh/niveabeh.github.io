@@ -30,5 +30,5 @@ Você pode visualizar o portfólio online clicando no link abaixo:
 Se preferir rodar o projeto localmente na sua máquina, siga os passos abaixo:
 
 ```bash
-git clone https://
+git clone https://github.com/niveabeh/niveabeh.github.io.git
 cd seu-repositorio
